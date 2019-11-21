@@ -1,0 +1,58 @@
+.PageScroller {
+    display:flex;
+    flex-direction: colum;
+    width:100%;
+}
+.PageScroller-wrapper {
+    display:flex;
+    width:100%;
+}
+.PageScroller-left-show {
+    display:flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    width:10%;
+    justify-content:center;
+    background-color:#fcc00e;
+}
+.PageScroller-left-hide {
+    display:flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    width:10%;
+    justify-content:center;
+    background-color:#333;
+}
+.PageScroller-previous {
+    display:flex;
+    text-align: center;
+    text-align: center;
+    color:#333
+}
+.PageScroller-center {
+    display:flex;
+    background-color:#333;
+    width:80%;
+}
+.PageScroller-right-show {
+    display:flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    width:10%;
+    justify-content:center;
+    background-color:#fcc00e;
+}
+.PageScroller-right-hide {
+    display:flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    width:10%;
+    justify-content:center;
+    background-color:#333;
+}   
+
+.PageScroller-next {
+    display:flex;
+    text-align: center;
+    color:#333
+}

@@ -1,0 +1,10 @@
+.PokemonList {
+  background-color:#cccccc;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.PokemonList-wrapper {
+  
+}

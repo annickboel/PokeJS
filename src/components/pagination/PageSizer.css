@@ -1,0 +1,22 @@
+.PageSizer {
+    display:flex;
+    flex-direction:row;
+    border-color: green;
+    width:100%;
+} 
+.PageSizer-select {
+    display:flex;
+    width:100%;
+    font-size:1rem;
+} 
+.PageSizer-select:focus {
+  outline-style:none;
+}
+.PageSizer-option {
+    display:flex;
+    flex-direction:row;
+    border-color: green;
+    font-size:3rem;
+    width:100%;
+} 
+

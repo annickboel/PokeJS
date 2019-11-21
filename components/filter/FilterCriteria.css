@@ -1,0 +1,99 @@
+.FilterCriteria {
+  display:flex;
+  flex-direction:column;
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  margin-top:0.5rem;
+  //margin-bottom:0.5rem;
+}
+.FilterCriteria-item {
+  display:flex;
+  flex-direction:row;
+}
+.FilterCriteria-item-left {
+  display:flex;
+  flex-direction:row;
+  width:25%;
+}
+.FilterCriteria-item-label {
+  width:100%;
+  padding-top:0.5rem;
+  padding-left:0.5rem;
+  margin-bottom:0.5rem;
+  min-height:3rem;
+  font-weight:bold;
+  font-size:1rem;
+  background-color:orange;
+}
+.FilterCriteria-item-value {
+  display:flex;
+  flex-direction:row;
+  background-color:orange;
+  width:100%;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  //padding-bottom:0.5rem;
+  //margin-bottom: 0.5rem;
+  min-height:3rem;
+  background-color:white;
+  width:100%;
+}
+.FilterCriteria-item-value-selected {
+  display:flex;
+  width:80%;
+}
+.FilterCriteria-item-value-select {
+  display:flex;
+  width:30%;
+  justify-content: flex-end;
+}
+.FilterCriteria-item-select {
+    display:flex;
+    font-size:0.8rem;
+    padding-bottom:0.5rem;
+    margin-bottom:0.5rem;
+    margin-right:0.5rem;
+} 
+.FilterCriteria-item-select:focus {
+  outline-style:none;
+}
+.FilterCriteria-item-right {
+  display:flex;
+  flex-direction:column;
+  width:75%;
+}
+.FilterCriteria-select-values-show{
+	display:block;
+}
+.FilterCriteria-select-values-hide{
+	display:none;
+}
+.FilterCriteria-select-option-wrapper{
+	width:100%;
+	background-color: blue;
+	padding:0.5rem;
+}
+.FilterCriteria-selectable-option{
+	width:100%;
+	background-color: #fcc00e;
+	padding-left:0.5rem;
+	height:1.5rem;
+	//font-weight:bold;
+}
+.FilterCriteria-selectable-option:hover{
+	width:100%;
+	background-color: orange;
+	padding-left:0.5rem;
+}
+.FilterCriteria-selected-option{
+	border-style:solid;
+	border-width:0.1;
+	
+}
+
+
+
+
+
+
+

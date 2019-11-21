@@ -1,0 +1,12 @@
+.Banner {
+  display:flex;
+  min-height: 20vh;
+  flex-direction:column;
+  background-color: #eee;
+  align-items: center;
+  justify-content:flex-end;
+  width:100%;
+}
+.Banner-logo {
+
+}

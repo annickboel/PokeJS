@@ -1,0 +1,53 @@
+import React from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as Actions from '../actions';
+import Header from '../components/header/Header';
+import Banner from '../components/header/Header';
+import Pokemon from '../components/detail/Pokemon';
+import './PokemonPage.css'
+
+class PokemonPage extends React.Component {
+
+	constructor(props) {
+      super(props);
+      this.handleSearch = this.handleSearch.bind(this);
+      this.handleFilter = this.handleFilter.bind(this);
+  }
+
+  handleSearch(query) {
+      console.log(query)
+  }
+
+  handleFilter(filter) {
+      console.log(filter)
+  }
+
+	render() {
+		return (
+      <div class="PokemonPage">
+        <div class='PokemonPage-header'>
+          <Banner/>
+        </div>
+        <div class='PokemonPage-content-wrapper'>
+          <div className='PokemonPage-content'>
+            POKEMON
+          </div>
+        </div>
+      </div>
+		)
+  }
+
+}
+
+function mapStateToProps(state) {  
+  	return {
+  		"state": state.pokemon
+  	}
+}
+
+function mapDispatchToProps(dispatch) {
+  return {actions: bindActionCreators(Actions, dispatch)}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(PokemonPage);
