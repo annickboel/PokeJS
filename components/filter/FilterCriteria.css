@@ -40,6 +40,7 @@
 }
 .FilterCriteria-item-value-selected {
   display:flex;
+  flex-wrap:wrap;
   width:80%;
 }
 .FilterCriteria-item-value-select {
@@ -85,10 +86,26 @@
 	background-color: orange;
 	padding-left:0.5rem;
 }
-.FilterCriteria-selected-option{
-	border-style:solid;
-	border-width:0.1;
-	
+.FilterCriteria-selected-option {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-width:3.5rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-image: initial;
+  height: 1.5rem;
+  padding-top:0.1rem;
+  padding-bottom:0.1rem;
+  padding-left:0.2rem;
+  padding-right:0.2rem;
+  margin-left:0.2rem;
+  margin-right:0.2rem;
+  margin-bottom:0.2rem;
+  font-size:0.8rem;
 }
 
 
