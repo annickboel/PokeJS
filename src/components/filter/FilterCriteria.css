@@ -1,0 +1,87 @@
+.FilterCriteria {
+  display:flex;
+  flex-direction:row;
+  margin-top:0.3rem;
+  width:100%;
+}
+.FilterCriteria-type {
+  display:flex;
+  flex-direction:row;
+  width:15%;
+  font-size:1.2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-image: initial;
+}
+.FilterCriteria-type-name{
+  padding-left:0.5rem;
+  font-size:1rem;
+}
+.Search-filter-criteria {
+  display:flex;
+  flex-direction:row;
+  width:100%;
+}
+.FilterCriteria-select {
+  display:flex;
+  flex-direction:row;
+  width:85%;
+}
+.FilterCriteria-selectable-options {
+  width:1.5rem;
+  height:1.5rem;
+  margin-left:0.2rem;
+  font-size:1.2rem;
+}
+.FilterCriteria-selectable-options:focus {
+  outline: none;
+}
+.FilterCriteria-selected-options {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:95%;
+  margin-left:0.2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-image: initial;
+}
+
+.FilterCriteria-selected-option {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  min-width:3.5rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-image: initial;
+  height: 1.5rem;
+  padding:0.2rem;
+  margin:0.2rem;
+  font-size:0.8rem;
+}
+
+.FilterCriteria-selected-option-value {
+  padding-right:0.4rem
+}
+.FilterCriteria-selected-option-deleted {
+  border-left-width:1px;
+  border-right-width:0px;
+  border-top-width:0px;
+  border-bottom-width:0px;
+  border-style: solid;
+  padding-left:0.4rem;
+  padding-right:0.2rem;
+}
+
+
+
+
+

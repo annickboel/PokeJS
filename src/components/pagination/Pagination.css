@@ -1,0 +1,29 @@
+.Pagination {
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height: 4vh;
+}
+.Pagination-content-wrapper {
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+}
+.Pagination-content {
+	display:flex;
+	width:30%;
+	height:4vh;
+	flex-direction:row;
+	background-color:pink;
+	margin-left:0.5rem;
+}
+.Pagination-scroller {
+	display:flex;
+	width:85%;
+}
+.Pagination-sizer {
+	display:flex;
+	width:15%;
+}

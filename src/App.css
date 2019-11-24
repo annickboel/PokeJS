@@ -1,0 +1,19 @@
+body{
+  background-color:#EEEEEE;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+}
+/*.App {
+  text-align: center;
+
+  min-height: 100vh;
+}*/
+
+.App-link {
+  color: #09d3ac;
+}

@@ -1,0 +1,189 @@
+.Pokemon {
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+.Pokemon-navigator {
+	display:flex;
+	flex-direction:row;
+	width:20%;
+}
+.Pokemon-content-wrapper {
+	display:flex;
+	flex-direction:row;
+	width:100%;
+}
+.Pokemon-content-left-wrapper {
+	display:flex;
+	flex-direction:row;
+	width:30%;
+}
+.Pokemon-content-left {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	margin-right:0.2rem;
+	border-radius: 5px;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: rgb(166, 166, 166);
+  	border-image: initial;
+	background-color:white;
+	height:60vh;
+}
+.Pokemon-picture-wrapper {
+	display:flex;
+	flex-direction:row;
+	height:20vh;
+	width:20vh;
+}
+
+.Pokemon-content-right-wrapper {
+	display:flex;
+	flex-direction:row;
+	width:70%;
+}
+.Pokemon-content-right {
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	margin-left:0.2rem;
+	border-radius: 5px;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: rgb(166, 166, 166);
+  	border-image: initial;
+	background-color:white;
+}
+.Pokemon-detail-items-wrapper {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	flex:1;
+}
+.Pokemon-detail-items {
+	display:flex;
+	flex-direction:column;
+	width:95%;
+	margin-top:2rem;
+}
+.Pokemon-detail-item {
+	display:flex;
+	flex-direction:row;
+	width:100%;
+}
+.Pokemon-detail-item-left {
+	display:flex;
+	flex-direction:column;
+	width:20%;
+}
+.Pokemon-detail-item-right {
+	display:flex;
+	flex-direction:column;
+	width:80%;
+}
+.Pokemon-detail-types{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	font-size:1.2rem;
+}
+.Pokemon-detail-type {
+	display:flex;
+	flex-direction:row;
+	border-radius: 5px;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: rgb(166, 166, 166);
+  	border-image: initial;
+	font-size:1rem;
+	padding:0.3rem;
+	margin-right:0.5rem;
+}
+.Pokemon-detail-moves {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	font-size:1.2rem;
+}
+.Pokemon-detail-move {
+	display:flex;
+	flex-direction:row;
+	border-radius: 5px;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: rgb(166, 166, 166);
+  	border-image: initial;
+	font-size:1rem;
+	padding:0.3rem;
+	margin-right:0.5rem;
+}
+.Pokemon-detail-name {
+	font-size:1.2rem;
+	line-height:2rem;
+	font-weight:bold;
+	padding-bottom: 1rem;
+}
+.Pokemon-detail-id {
+	font-size:1.2rem;
+	line-height:2rem;
+	font-weight:bold;
+	padding-bottom: 1rem;
+}
+.Pokemon-detail-sprites {
+	display:flex;
+	font-direction:row;
+	font-size:1.2rem;
+}
+.Pokemon-detail-sprite {
+	border-radius: 5px;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: rgb(166, 166, 166);
+  	border-image: initial;
+	background-color:white;
+	margin-top:1rem;
+	margin-right:0.5rem;
+}
+
+.Pokemon-detail-name-label{
+	font-size:2rem;
+}
+.Pokemon-detail-name-value{
+	font-size:2rem;
+}
+.Pokemon-detail-id-label{
+	font-size:2rem;
+}
+.Pokemon-detail-id-value{
+	font-size:2rem;
+	margin-bottom:2rem;
+}
+.Pokemon-detail-types-label{
+	font-size:1.3rem;
+}
+.Pokemon-detail-evolutions-label{
+	font-size:1.3rem;
+}
+.Pokemon-detail-sprites-label{
+	font-size:1.3rem;
+}
+.Pokemon-detail-family-label {
+	margin-top: 1rem;
+	font-size:1.3rem;
+}
+.Pokemon-detail-family-value {
+	margin-top: 1rem;
+}
+.Pokemon-detail-moves-label{
+	font-size:1.3rem;
+}
+.Pokemon-detail-helditems-label{
+	font-size:1.3rem;
+}
+
+
+
+

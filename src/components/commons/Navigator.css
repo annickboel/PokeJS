@@ -1,0 +1,14 @@
+.Navigator {
+  display:flex;
+  flex-direction:row;
+  font-size:2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-image: initial;
+  background-color:#737373;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  color:#dbdbdb;
+}
